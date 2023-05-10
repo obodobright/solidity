@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleStorage.sol": "ApisEtherium"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0xef3fa85bd73fbfd257f7a7768fddd715581acb8a2be063df32d729b1a90630a1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5716ac2eb986b35996840700e066438e03fad5e5556869dce9d23b1018fb46eb",
+				"dweb:/ipfs/QmNqoTYGmbfA9g2yvMxxJX7hy7kcSZw9crK7Y7NQggY2fB"
+			]
+		}
+	},
+	"version": 1
+}

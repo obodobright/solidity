@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_converted",
+						"type": "bool"
+					}
+				],
+				"name": "addZombie",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "findZombie",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "zoms",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isConverted",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExtraZombie.sol": "ExtraZombie"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExtraZombie.sol": {
+			"keccak256": "0x4b2c239395320eb80d01708d8239dcd86e6cbe47bae08805869ee8d51844c02b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05dbf3b51738d2e9199c9c54180a46602b0dad560612e8bb2ab4e488fbf87b8f",
+				"dweb:/ipfs/QmUSqV842ubkxx7fu1Woot3yxsEDag9cYMp8tQMEdFNb8y"
+			]
+		},
+		"contracts/zombies.sol": {
+			"keccak256": "0x28e5a4485783a563c93b5da9356413c31ca38fa3b15854896412912347adea53",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3ddd7c28e1318270c862d51c6bd26c39db8a61d2d7cb26148babc54b7c486389",
+				"dweb:/ipfs/QmWaE5T1bdADBh6gPJwoDDQTKry6Lq5tHKsXzw76Hk8YFH"
+			]
+		}
+	},
+	"version": 1
+}
